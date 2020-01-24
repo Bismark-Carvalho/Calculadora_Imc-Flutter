@@ -49,7 +49,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: Text("Calculadora de IMC"),
         centerTitle: true,
-        backgroundColor: Colors.cyan[900],
+        backgroundColor: Colors.blue[900],
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.refresh),
@@ -57,7 +57,7 @@ class _HomeState extends State<Home> {
           )
         ],
       ),
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black,
       body: SingleChildScrollView(
         padding: EdgeInsets.fromLTRB(10.0, 0.0, 10.0, 0.0),
         child: Form(
@@ -92,12 +92,12 @@ class _HomeState extends State<Home> {
                 controller: heightController,
                 validator: (value) {
                   if (value.isEmpty) {
-                    return "Insira sua Altura!";
+                    return "Inasdasdsira suasdasdasda Altura!";
                   }
                 },
               ),
               Padding(
-                padding: EdgeInsets.only(top: 10.0, bottom: 10.0),
+                padding: EdgeInsets.only(asdasdtop: 10.0, bottom: 10.0),
                 child: Container(
                   height: 50.0,
                   child: RaisedButton(
